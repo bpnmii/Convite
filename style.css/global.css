@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    /* Brand */
+    --brand-light: #59B2FF;
+    --brand-mid:#3487CF;
+    --brand-dark:#1D6FB6;
+
+    /* Accent Colors */
+    --purple:#B259FF;
+    --fuschia:#FF59F9;
+    --pink:#FF598B;
+    --orange:#FF8B59;
+    --yellow:#FFCD59;
+    --lime:#E1FF59;
+    --green:#59FF91;
+    --cyan:#59FFF9;
+    --navy:#6A59FF;
+
+    /* Feedback */
+    --danger:#FF5959;
+
+    /* Input */
+    --input-base:#1C1F21;
+    --input-stroke:#363B40;
+    --input-placeholder:#869198;
+
+    /* Shape */
+    --shape-background:#131516;
+    --shape-body:#212427;
+    --shape-button:#2D3136;
+    --shape-hover:#383D42;
+
+    /* Text */
+    --text-body:#C8CDD0;
+    --text-heading:#F9F9F9;
+
+    /* Fontes */
+    --logo:500 2.75rem/1.5 "Leckerli One", cursive;
+    --Heading-Md: 700 1.75rem/1.5 "Baloo 2", sans-serif;
+    --Heading-Sm: 700 1.125rem/1.5 "Baloo 2", sans-serif;
+    --Body-Md: 400 1rem/1.5 "Open Sans", sans-serif;
+    --Body-Sm: 400 0.875rem/1.5 "Open Sans", sans-serif;
+    --Body-Xs: 400 0.75rem/1.5 "Open Sans", sans-serif;
+}
