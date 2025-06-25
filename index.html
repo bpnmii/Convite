@@ -21,10 +21,78 @@
 
         <aside>
             <div class="aside-container">
-                <div class="title">
+                <div class="crie">
                     <h1>Crie seu convite</h1>
-                    <img src="assets/calendar.svg" alt="Imagem de calendario">
                 </div>
+                <form>
+                    <fieldset>
+
+                        <div class="title">
+                            <img src="assets/calendar.svg" alt="Imagem de calendario">
+                            <p>Sobre o evento</p>
+                        </div>
+
+                        <div class="aside-titulo">
+                            <label>
+                                    Título
+                            </label>
+                            <input type="text" name="titulo" placeholder="Nome do evento">
+                        </div>
+
+                        <div class="inicio-fim">
+                            <label>
+                                Início
+                            </label>
+                            <input type="datetime" name="data">
+                            <label>
+                                Fim
+                            </label>
+                            <input type="datetime" name="data">
+                        </div>
+
+                        <div class="tipo-local">
+                            <label>Tipo</label>
+                            <div class="radio-wrapper">
+                                <div class="radio-inner">
+                                    <input type="radio" name="tipo" value="presencial" id="presencial" />
+                                    <label for="presencial">
+                                        <img src="assets/building.svg" alt="Ícone de prédio" />
+                                        Presencial
+                                    </label>
+                                </div>
+                                <div class="radio-inner">
+                                    <input type="radio" name="tipo" value="online" id="online" />
+                                    <label for="online">
+                                        <img src="assets/video.svg" alt="Ícone de câmera" />
+                                        Online
+                                    </label>
+                                </div>
+                            </div>
+                            <label>
+                                Local
+                            </label>
+                            <input type="text" name="local" placeholder="Link ou endereço">
+                        </div>
+
+                        <div class="descricao">
+                            <label>Descrição</label>
+                            <textarea name="descricao" id="descricao">
+                                Escreva sobre os detalhes do evento
+                            </textarea>
+                        </div>
+
+                        <div class="personalizacao">
+                            <img src="assets/paintbrush-vertical.svg" alt="">
+                            <p>Personalização</p>
+                            <p>Cor principal</p>
+                        </div>
+
+                        
+
+                            
+                    
+                    </fieldset>
+                </form>
             </div>
         </aside>
     </div>

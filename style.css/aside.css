@@ -1,0 +1,45 @@
+aside{
+    background-color: var(--shape-body);
+    .crie{
+        font: var(--Heading-Md);
+        color: var(--text-heading);
+    }
+
+    .title{
+        display: flex;
+        gap: 1rem;
+        img{
+          width: 1.5rem;
+        }
+
+        p{
+            font: var(--Heading-Sm);
+            color: var(--text-heading);
+        }
+    }
+
+    .aside-titulo{
+        font: var(--shape-body);
+        color: var(--text-heading);
+    }
+
+    .inicio-fim{
+        font: var(--shape-body);
+        color: var(--text-heading);
+    }
+
+    .tipo-local{
+        font: var(--shape-body);
+        color: var(--text-heading);
+    }
+
+    .descricao{
+        font: var(--shape-body);
+        color: var(--text-heading);
+    }
+
+    .personalizacao{
+        font: var(--shape-body);
+        color: var(--text-heading);
+    }
+}
